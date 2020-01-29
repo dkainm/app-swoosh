@@ -15,6 +15,8 @@
 		FAA62EE723E036BF00B4E7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA62EE523E036BF00B4E7AB /* LaunchScreen.storyboard */; };
 		FAA62EF223E03AF200B4E7AB /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA62EF123E03AF200B4E7AB /* BorderButton.swift */; };
 		FAA62EF523E03FC400B4E7AB /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA62EF423E03FC400B4E7AB /* Design.swift */; };
+		FAD369F523E216EE00D6106C /* ChooseTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD369F423E216EE00D6106C /* ChooseTeamViewController.swift */; };
+		FAD369F723E21B2300D6106C /* ChooseLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD369F623E21B2300D6106C /* ChooseLevelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		FAA62EE823E036BF00B4E7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA62EF123E03AF200B4E7AB /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		FAA62EF423E03FC400B4E7AB /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		FAD369F423E216EE00D6106C /* ChooseTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTeamViewController.swift; sourceTree = "<group>"; };
+		FAD369F623E21B2300D6106C /* ChooseLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLevelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +66,15 @@
 			children = (
 				FAA62EF323E03F7E00B4E7AB /* Helpers */,
 				FAA62EF023E03ABA00B4E7AB /* Views */,
-				FAA62EDA23E036BD00B4E7AB /* AppDelegate.swift */,
-				FAA62EDC23E036BD00B4E7AB /* SceneDelegate.swift */,
+				FAD369F623E21B2300D6106C /* ChooseLevelViewController.swift */,
+				FAD369F423E216EE00D6106C /* ChooseTeamViewController.swift */,
 				FAA62EDE23E036BD00B4E7AB /* ViewController.swift */,
 				FAA62EE023E036BD00B4E7AB /* Main.storyboard */,
 				FAA62EE323E036BF00B4E7AB /* Assets.xcassets */,
 				FAA62EE523E036BF00B4E7AB /* LaunchScreen.storyboard */,
 				FAA62EE823E036BF00B4E7AB /* Info.plist */,
+				FAA62EDA23E036BD00B4E7AB /* AppDelegate.swift */,
+				FAA62EDC23E036BD00B4E7AB /* SceneDelegate.swift */,
 			);
 			path = "app-swoosh";
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 				FAA62EDB23E036BD00B4E7AB /* AppDelegate.swift in Sources */,
 				FAA62EF523E03FC400B4E7AB /* Design.swift in Sources */,
 				FAA62EDD23E036BD00B4E7AB /* SceneDelegate.swift in Sources */,
+				FAD369F523E216EE00D6106C /* ChooseTeamViewController.swift in Sources */,
 				FAA62EF223E03AF200B4E7AB /* BorderButton.swift in Sources */,
+				FAD369F723E21B2300D6106C /* ChooseLevelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
