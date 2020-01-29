@@ -13,12 +13,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var swooshImage: UIImageView!
     
     var design: Design!
-    var background = UIImage(named: "welcomeScreenBG.png") 
+    var background = UIImage(named: "welcomeScreenBG.png")
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        settingBackground()
+        settingBackground(backround: background!)
         
         swooshImage.frame = CGRect(x: view.frame.size.width / 2 - swooshImage.frame.size.width, y: 50, width: swooshImage.frame.size.width, height: swooshImage.frame.size.height)
     }
@@ -27,7 +28,9 @@ class ViewController: UIViewController {
         return true
     }
 
-    func settingBackground() {
+    func settingBackground(backround: UIImage) {
+        self.background = backround
+        
         var imageView : UIImageView!
         imageView = UIImageView(frame: view.bounds)
         imageView.contentMode =  UIView.ContentMode.scaleAspectFill

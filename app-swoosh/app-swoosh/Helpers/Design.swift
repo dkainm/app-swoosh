@@ -10,15 +10,16 @@ import UIKit
 
 class Design {
     
-    var background: UIImage?
-    var view: UIView?
+//    var background: UIImage?
+//    var view: UIView?
     
-    init(background: UIImage?) {
-        self.background = background
-    }
+//    init(background: UIImage?) {
+//        self.background = background!
+//    }
     
     func setBackground(background: UIImage, view: UIView) {
-        self.view = view
+//        self.background = background
+//        self.view = view
         
         var imageView : UIImageView!
         imageView = UIImageView(frame: view.bounds)
@@ -27,6 +28,6 @@ class Design {
         imageView.image = background
         imageView.center = view.center
         view.addSubview(imageView)
-        self.view?.sendSubviewToBack(imageView)
+        view.sendSubviewToBack(imageView)
     }
 }
